@@ -3,15 +3,31 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies"
     ],
-    "content-hash": "d751713988987e9331980363e24189ce",
-    "packages": [],
+    "content-hash": "c51e25b154fb6de08b95c4eedfb5bdc7",
+    "packages": [
+        {
+            "name": "laravel/framework",
+            "version": "v9.52.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "082345d76fc6a9835d0de3052e10bdfb75b4e7e5"
+            },
+            "require": {
+                "php": "^8.0.2"
+            },
+            "type": "library"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.0.2"
+    },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
